@@ -9,3 +9,5 @@ applyNativeModulesSettingsGradle(settings)
 include ':app'
 include ':react-native-immediate-phone-call', ':app'
   project(':react-native-immediate-phone-call').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-immediate-phone-call/android')
+include ':react-native-config'
+ project(':react-native-config').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-config/android')

@@ -4,7 +4,6 @@ import RNImmediatePhoneCall from 'react-native-immediate-phone-call';
 
 export default function App() {
 	checkCallPermission()
-	console.log(Config.BABA)
 	const image = "./assets/background.jpg"
 
 	return (
@@ -24,35 +23,35 @@ export default function App() {
 
 				<TouchableOpacity
 				style={[styles.callButton, {backgroundColor:'#55c951'}]}
-				onPress={() => {onButtonPress('01773657785')}}
+				onPress={() => {onButtonPress(Config.AMMA)}}
 				>
 				<Text style={styles.textStyle}>Amma</Text>
 				</TouchableOpacity>
 
 				<TouchableOpacity
 				style={[styles.callButton, {backgroundColor:'#87bbe8'}]}
-				onPress={() => {onButtonPress('01763185363')}}
+				onPress={() => {onButtonPress(Config.NILOY)}}
 				>
 				<Text style={styles.textStyle}>Niloy</Text>
 				</TouchableOpacity>
 
 				<TouchableOpacity
 				style={[styles.callButton, {backgroundColor:'#db6a07'}]}
-				onPress={() => {onButtonPress('01844484110')}}
+				onPress={() => {onButtonPress(Config.KAKU)}}
 				>
 				<Text style={styles.textStyle}>Kaku</Text>
 				</TouchableOpacity>
 
 				<TouchableOpacity
 				style={[styles.callButton, {backgroundColor:'#fa6eff'}]}
-				onPress={() => {onButtonPress('01743325437')}}
+				onPress={() => {onButtonPress(Config.PANNA)}}
 				>
 				<Text style={styles.textStyle}>Panna Fupi</Text>
 				</TouchableOpacity>
 
 				<TouchableOpacity
 				style={[styles.callButton, {backgroundColor:'#c9080f'}]}
-				onPress={() => {onButtonPress('01743946285')}}
+				onPress={() => {onButtonPress(Config.ZULI)}}
 				>
 				<Text style={styles.textStyle}>Zuli Mami</Text>
 				</TouchableOpacity>
